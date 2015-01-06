@@ -1,0 +1,2 @@
+platform :ios, '8.1'
+pod 'IRKit', :git => 'https://github.com/irkit/ios-sdk.git'

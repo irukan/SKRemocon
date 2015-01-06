@@ -1,0 +1,4 @@
+Congratulations!
+Here's your apikey: "4A0A42FB21BD406AAECE1B868BA5DBBD"
+Paste this code in in your AppDelegate's application:didFinishLaunchingWithOptions:
+[IRKit startWithAPIKey:@"4A0A42FB21BD406AAECE1B868BA5DBBD"];

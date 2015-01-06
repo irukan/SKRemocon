@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E81EB6712101B11998FDB1E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9332921A27FD3CE84A49A794 /* libPods.a */; };
+		AA7FF50C1A5C0EF400F96086 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7FF50B1A5C0EF400F96086 /* AppDelegate.swift */; };
+		AA7FF50E1A5C0EF400F96086 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7FF50D1A5C0EF400F96086 /* ViewController.swift */; };
+		AA7FF5111A5C0EF400F96086 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7FF50F1A5C0EF400F96086 /* Main.storyboard */; };
+		AA7FF5131A5C0EF400F96086 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7FF5121A5C0EF400F96086 /* Images.xcassets */; };
+		AA7FF5161A5C0EF400F96086 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA7FF5141A5C0EF400F96086 /* LaunchScreen.xib */; };
+		AA7FF5221A5C0EF400F96086 /* SKRemoconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7FF5211A5C0EF400F96086 /* SKRemoconTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA7FF51C1A5C0EF400F96086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA7FF4FE1A5C0EF400F96086 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA7FF5051A5C0EF400F96086;
+			remoteInfo = SKRemocon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9332921A27FD3CE84A49A794 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF7F980C367F0770F627B83 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		AA7FF5061A5C0EF400F96086 /* SKRemocon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKRemocon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7FF50A1A5C0EF400F96086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7FF50B1A5C0EF400F96086 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA7FF50D1A5C0EF400F96086 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA7FF5101A5C0EF400F96086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA7FF5121A5C0EF400F96086 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AA7FF5151A5C0EF400F96086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AA7FF51B1A5C0EF400F96086 /* SKRemoconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKRemoconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7FF5201A5C0EF400F96086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7FF5211A5C0EF400F96086 /* SKRemoconTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKRemoconTests.swift; sourceTree = "<group>"; };
+		AA7FF52B1A5C102000F96086 /* SKRemocon-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKRemocon-Bridging-Header.h"; sourceTree = "<group>"; };
+		D3D358BDE9654CDA32A5F7B3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA7FF5031A5C0EF400F96086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E81EB6712101B11998FDB1E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7FF5181A5C0EF400F96086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5683E3BFD81F16A2DEAFDBF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9332921A27FD3CE84A49A794 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87872E968D86B62246433011 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3D358BDE9654CDA32A5F7B3 /* Pods.debug.xcconfig */,
+				9FF7F980C367F0770F627B83 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA7FF4FD1A5C0EF400F96086 = {
+			isa = PBXGroup;
+			children = (
+				AA7FF5081A5C0EF400F96086 /* SKRemocon */,
+				AA7FF51E1A5C0EF400F96086 /* SKRemoconTests */,
+				AA7FF5071A5C0EF400F96086 /* Products */,
+				87872E968D86B62246433011 /* Pods */,
+				5683E3BFD81F16A2DEAFDBF2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA7FF5071A5C0EF400F96086 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA7FF5061A5C0EF400F96086 /* SKRemocon.app */,
+				AA7FF51B1A5C0EF400F96086 /* SKRemoconTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA7FF5081A5C0EF400F96086 /* SKRemocon */ = {
+			isa = PBXGroup;
+			children = (
+				AA7FF52B1A5C102000F96086 /* SKRemocon-Bridging-Header.h */,
+				AA7FF50B1A5C0EF400F96086 /* AppDelegate.swift */,
+				AA7FF50D1A5C0EF400F96086 /* ViewController.swift */,
+				AA7FF50F1A5C0EF400F96086 /* Main.storyboard */,
+				AA7FF5121A5C0EF400F96086 /* Images.xcassets */,
+				AA7FF5141A5C0EF400F96086 /* LaunchScreen.xib */,
+				AA7FF5091A5C0EF400F96086 /* Supporting Files */,
+			);
+			path = SKRemocon;
+			sourceTree = "<group>";
+		};
+		AA7FF5091A5C0EF400F96086 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA7FF50A1A5C0EF400F96086 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA7FF51E1A5C0EF400F96086 /* SKRemoconTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA7FF5211A5C0EF400F96086 /* SKRemoconTests.swift */,
+				AA7FF51F1A5C0EF400F96086 /* Supporting Files */,
+			);
+			path = SKRemoconTests;
+			sourceTree = "<group>";
+		};
+		AA7FF51F1A5C0EF400F96086 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA7FF5201A5C0EF400F96086 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA7FF5051A5C0EF400F96086 /* SKRemocon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7FF5251A5C0EF400F96086 /* Build configuration list for PBXNativeTarget "SKRemocon" */;
+			buildPhases = (
+				9AC64C82094CDF265E0A09AC /* Check Pods Manifest.lock */,
+				AA7FF5021A5C0EF400F96086 /* Sources */,
+				AA7FF5031A5C0EF400F96086 /* Frameworks */,
+				AA7FF5041A5C0EF400F96086 /* Resources */,
+				27AA24F6764DA7944076505C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKRemocon;
+			productName = SKRemocon;
+			productReference = AA7FF5061A5C0EF400F96086 /* SKRemocon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA7FF51A1A5C0EF400F96086 /* SKRemoconTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7FF5281A5C0EF400F96086 /* Build configuration list for PBXNativeTarget "SKRemoconTests" */;
+			buildPhases = (
+				AA7FF5171A5C0EF400F96086 /* Sources */,
+				AA7FF5181A5C0EF400F96086 /* Frameworks */,
+				AA7FF5191A5C0EF400F96086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA7FF51D1A5C0EF400F96086 /* PBXTargetDependency */,
+			);
+			name = SKRemoconTests;
+			productName = SKRemoconTests;
+			productReference = AA7FF51B1A5C0EF400F96086 /* SKRemoconTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA7FF4FE1A5C0EF400F96086 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = kayama;
+				TargetAttributes = {
+					AA7FF5051A5C0EF400F96086 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					AA7FF51A1A5C0EF400F96086 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = AA7FF5051A5C0EF400F96086;
+					};
+				};
+			};
+			buildConfigurationList = AA7FF5011A5C0EF400F96086 /* Build configuration list for PBXProject "SKRemocon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA7FF4FD1A5C0EF400F96086;
+			productRefGroup = AA7FF5071A5C0EF400F96086 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA7FF5051A5C0EF400F96086 /* SKRemocon */,
+				AA7FF51A1A5C0EF400F96086 /* SKRemoconTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA7FF5041A5C0EF400F96086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7FF5111A5C0EF400F96086 /* Main.storyboard in Resources */,
+				AA7FF5161A5C0EF400F96086 /* LaunchScreen.xib in Resources */,
+				AA7FF5131A5C0EF400F96086 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7FF5191A5C0EF400F96086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27AA24F6764DA7944076505C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AC64C82094CDF265E0A09AC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA7FF5021A5C0EF400F96086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7FF50E1A5C0EF400F96086 /* ViewController.swift in Sources */,
+				AA7FF50C1A5C0EF400F96086 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7FF5171A5C0EF400F96086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7FF5221A5C0EF400F96086 /* SKRemoconTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA7FF51D1A5C0EF400F96086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA7FF5051A5C0EF400F96086 /* SKRemocon */;
+			targetProxy = AA7FF51C1A5C0EF400F96086 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA7FF50F1A5C0EF400F96086 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA7FF5101A5C0EF400F96086 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA7FF5141A5C0EF400F96086 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA7FF5151A5C0EF400F96086 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA7FF5231A5C0EF400F96086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA7FF5241A5C0EF400F96086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA7FF5261A5C0EF400F96086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3D358BDE9654CDA32A5F7B3 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKRemocon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/$(PROJECT)-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		AA7FF5271A5C0EF400F96086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FF7F980C367F0770F627B83 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKRemocon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/$(PROJECT)-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		AA7FF5291A5C0EF400F96086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SKRemoconTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKRemocon.app/SKRemocon";
+			};
+			name = Debug;
+		};
+		AA7FF52A1A5C0EF400F96086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SKRemoconTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKRemocon.app/SKRemocon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA7FF5011A5C0EF400F96086 /* Build configuration list for PBXProject "SKRemocon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7FF5231A5C0EF400F96086 /* Debug */,
+				AA7FF5241A5C0EF400F96086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7FF5251A5C0EF400F96086 /* Build configuration list for PBXNativeTarget "SKRemocon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7FF5261A5C0EF400F96086 /* Debug */,
+				AA7FF5271A5C0EF400F96086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7FF5281A5C0EF400F96086 /* Build configuration list for PBXNativeTarget "SKRemoconTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7FF5291A5C0EF400F96086 /* Debug */,
+				AA7FF52A1A5C0EF400F96086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA7FF4FE1A5C0EF400F96086 /* Project object */;
+}
