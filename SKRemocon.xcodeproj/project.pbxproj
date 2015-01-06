@@ -14,6 +14,10 @@
 		AA7FF5131A5C0EF400F96086 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7FF5121A5C0EF400F96086 /* Images.xcassets */; };
 		AA7FF5161A5C0EF400F96086 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA7FF5141A5C0EF400F96086 /* LaunchScreen.xib */; };
 		AA7FF5221A5C0EF400F96086 /* SKRemoconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7FF5211A5C0EF400F96086 /* SKRemoconTests.swift */; };
+		AA7FF52D1A5C120D00F96086 /* IRSignalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7FF52C1A5C120D00F96086 /* IRSignalData.swift */; };
+		AA7FF52F1A5C126500F96086 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7FF52E1A5C126500F96086 /* FileIO.swift */; };
+		AA7FF5311A5C1DF300F96086 /* SignalBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7FF5301A5C1DF300F96086 /* SignalBtn.swift */; };
+		AA7FF5331A5C1FA000F96086 /* IRData.csv in Resources */ = {isa = PBXBuildFile; fileRef = AA7FF5321A5C1FA000F96086 /* IRData.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		AA7FF5201A5C0EF400F96086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA7FF5211A5C0EF400F96086 /* SKRemoconTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKRemoconTests.swift; sourceTree = "<group>"; };
 		AA7FF52B1A5C102000F96086 /* SKRemocon-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKRemocon-Bridging-Header.h"; sourceTree = "<group>"; };
+		AA7FF52C1A5C120D00F96086 /* IRSignalData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IRSignalData.swift; sourceTree = "<group>"; };
+		AA7FF52E1A5C126500F96086 /* FileIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileIO.swift; sourceTree = "<group>"; };
+		AA7FF5301A5C1DF300F96086 /* SignalBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignalBtn.swift; sourceTree = "<group>"; };
+		AA7FF5321A5C1FA000F96086 /* IRData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IRData.csv; sourceTree = "<group>"; };
 		D3D358BDE9654CDA32A5F7B3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +110,10 @@
 		AA7FF5081A5C0EF400F96086 /* SKRemocon */ = {
 			isa = PBXGroup;
 			children = (
+				AA7FF5321A5C1FA000F96086 /* IRData.csv */,
+				AA7FF52C1A5C120D00F96086 /* IRSignalData.swift */,
+				AA7FF5301A5C1DF300F96086 /* SignalBtn.swift */,
+				AA7FF52E1A5C126500F96086 /* FileIO.swift */,
 				AA7FF52B1A5C102000F96086 /* SKRemocon-Bridging-Header.h */,
 				AA7FF50B1A5C0EF400F96086 /* AppDelegate.swift */,
 				AA7FF50D1A5C0EF400F96086 /* ViewController.swift */,
@@ -221,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA7FF5111A5C0EF400F96086 /* Main.storyboard in Resources */,
+				AA7FF5331A5C1FA000F96086 /* IRData.csv in Resources */,
 				AA7FF5161A5C0EF400F96086 /* LaunchScreen.xib in Resources */,
 				AA7FF5131A5C0EF400F96086 /* Images.xcassets in Resources */,
 			);
@@ -273,8 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA7FF52D1A5C120D00F96086 /* IRSignalData.swift in Sources */,
 				AA7FF50E1A5C0EF400F96086 /* ViewController.swift in Sources */,
 				AA7FF50C1A5C0EF400F96086 /* AppDelegate.swift in Sources */,
+				AA7FF5311A5C1DF300F96086 /* SignalBtn.swift in Sources */,
+				AA7FF52F1A5C126500F96086 /* FileIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

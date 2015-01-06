@@ -12,10 +12,19 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var m_IRSignal: IRSignalData!
 
-
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool
+    {
         // Override point for customization after application launch.
+        
+        // Init IRKit
+        IRKit.startWithAPIKey("4A0A42FB21BD406AAECE1B868BA5DBBD")
+        
+        // init IRSignalData
+        let dataPath = NSBundle.mainBundle().pathForResource("IRData", ofType: "csv")
+        m_IRSignal = IRSignalData(dataPath: dataPath!)
+        
         return true
     }
 
