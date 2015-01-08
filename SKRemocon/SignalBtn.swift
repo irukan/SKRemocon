@@ -8,10 +8,28 @@
 
 import UIKit
 
+@IBDesignable class BorderBtn: UIButton
+{
+    required init(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+    }
+    
+    @IBInspectable var color: UIColor = UIColor.blackColor() {
+        didSet {
+            layer.borderWidth = 2.0
+            layer.cornerRadius = 5.5
+            layer.borderColor = color.CGColor
+            self.setTitleColor(UIColor.blackColor(), forState: .Normal)
+        }
+    }
+}
+
 @IBDesignable class SignalBtn: UIButton {
 
-
-    
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
@@ -45,7 +63,7 @@ import UIKit
     @IBInspectable var color: UIColor = UIColor.blackColor() {
         didSet {
             layer.borderWidth = 2.0
-            layer.cornerRadius = 3.5
+            layer.cornerRadius = 5.5
             layer.borderColor = color.CGColor
             self.setTitleColor(UIColor.blackColor(), forState: .Normal)
         }

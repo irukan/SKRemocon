@@ -22,8 +22,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         IRKit.startWithAPIKey("4A0A42FB21BD406AAECE1B868BA5DBBD")
         
         // init IRSignalData
-        let dataPath = NSBundle.mainBundle().pathForResource("IRData", ofType: "csv")
-        m_IRSignal = IRSignalData(dataPath: dataPath!)
+        let dataPath: String! = NSBundle.mainBundle().pathForResource("IRData", ofType: "csv")
+        //let dataPath = "/Users/kayama/Xcode/iPhone/SKRemocon/SKRemocon/IRData.csv"
+        m_IRSignal = IRSignalData(dataPath: dataPath)
         
         return true
     }
